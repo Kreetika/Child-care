@@ -1,0 +1,94 @@
+*                            /*-----Styling the whole body-----*/
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+
+}
+
+
+
+/*-----Heading-------*/
+#top
+{
+	
+	width: 100%;
+	height: 50px;
+}
+
+
+#top h2
+{
+	
+	color: #FF1493;
+	font-weight: lighter;
+	padding: 10px;
+
+}
+
+#top p
+{
+	padding: 15px;
+	text-align: right;
+	word-spacing: 10px;
+
+}
+
+
+.col-md-6
+{
+	
+	color: #000000;
+	font-weight: lighter;
+	padding: 10px;
+
+}
+
+ 
+/*---- Navigation bar-------*/
+nav
+{
+	width: 100%;
+	height: 50px;
+}
+
+
+
+ul li 
+{
+	list-style: none;          /*---- Removes bulleting from the list -------*/
+	display: inline-block;     /*---- Displays the items in a single line -------*/
+	float: left; 			   /*---- Removes spaces between items and items are moved towards left -------*/
+	line-height: 35px;
+}
+
+ul li a 
+{
+	display: block;			     /*---- Hovers cursor in the whole nav bar instead of item only -------*/ 
+	text-decoration: none;       /*----Removes underline from anchoe tag-------*/
+	font-size: 14;
+	color: #000000;
+	padding: 10px;
+
+	
+}
+
+button
+{
+	display: inline-block;
+	background-image: linear-gradient(to right, rgb(255, 103, 129), rgb(199,21,133));
+	color: #fff;
+	border-radius: 20px;
+	text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 120px;
+    border-color: #ffffff;
+    cursor: pointer;
+    float:  right;
+}
+
+/*-----Body Part-------*/
+
+
+
