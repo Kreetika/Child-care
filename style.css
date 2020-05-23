@@ -1,17 +1,43 @@
 *                            /*-----Styling the whole body-----*/
 {
+	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
-	font-family: arial;
-
+	font-family: 'Roboto', sans-serif;
 }
 
+.menu{
+	padding:0 5.3%;
+}
 
+.col-md-5{
+	display: block;
+	padding: 10px 5%;
+}
+
+.col-md-5 ul{
+	float: right;
+}
+
+.col-md-5 li{
+	padding: 10px;
+	display: inline;
+}
+
+.col-md-5 i{
+	padding-right: 2px;
+}
+
+.col-md-5 p{
+	padding-right:10px;
+}
+
+.col-md-5 h2{
+	display: inline-block;
+}
 
 /*-----Heading-------*/
 #top
 {
-	
 	width: 100%;
 	height: 50px;
 }
@@ -19,18 +45,16 @@
 
 #top h2
 {
-	
 	color: #FF1493;
-	font-weight: lighter;
+	font-weight: normal;
 	padding: 10px;
-
+	font-size: 1.7em;
 }
 
 #top p
 {
-	padding: 15px;
+	padding: 55px;
 	text-align: right;
-	word-spacing: 10px;
 
 }
 
@@ -40,7 +64,6 @@
 	
 	color: #000000;
 	font-weight: lighter;
-	padding: 10px;
 
 }
 
@@ -48,17 +71,34 @@
 /*---- Navigation bar-------*/
 nav
 {
+	display: block;
 	width: 100%;
-	height: 50px;
 }
 
+nav ul{
+	display: inline-block;
+	margin-left: 2%;
+}
 
+.btn{
+	display: inline;
+	float: right;
+	margin-right: 5%;
+	vertical-align: middle;
+}
+
+button:focus{
+	outline:0;
+}
+
+.fa-shopping-cart{
+	color: rgb(199,21,133);
+}
 
 ul li 
 {
 	list-style: none;          /*---- Removes bulleting from the list -------*/
-	display: inline-block;     /*---- Displays the items in a single line -------*/
-	float: left; 			   /*---- Removes spaces between items and items are moved towards left -------*/
+	display: inline-block;   /*---- Removes spaces between items and items are moved towards left -------*/
 	line-height: 35px;
 }
 
@@ -73,22 +113,80 @@ ul li a
 	
 }
 
-button
+.col-md-7 button, .btn button
 {
 	display: inline-block;
 	background-image: linear-gradient(to right, rgb(255, 103, 129), rgb(199,21,133));
 	color: #fff;
-	border-radius: 20px;
+	border-radius: 10px;
 	text-align: center;
     font-size: 14px;
-    padding: 10px;
+    padding: 15px;
     width: 120px;
-    border-color: #ffffff;
-    cursor: pointer;
-    float:  right;
+    border: none;
+	cursor: pointer;
 }
+
 
 /*-----Body Part-------*/
 
+.container1{
+	padding: 0 10%;
+}
+
+.row1{
+	width: 100%;
+	display: table;
+}
+
+.col-md-7{
+	display: table-cell;
+	vertical-align: middle;
+	padding:10px;
+}
+
+h1+p{
+	padding-top:20px;
+}
+
+.row1 h1{
+	font-size: 3em;
+}
+
+.ribbon{
+	display: block;
+	background-image: linear-gradient(to right, rgb(255, 103, 129), rgb(199,21,133));
+}
+
+.ribbon .row2{
+	display: table;
+	padding:0 10%;
+}
+
+.col-md-9{
+	padding:30px;
+	padding-right: 70%;
+	color:white;
+	display: table-cell;
+}
+
+.info{
+	display: inline-block;
+	background-image: none;
+	width: 200%;
+}
 
 
+.col-md-10{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.col-md-10 button{
+	background-color: white;
+	border-radius: 100px;
+	width: 100px;
+	height:100px;
+	border-color: rgba(10, 10, 10, 0.2);
+	border-width: 10px;
+}
