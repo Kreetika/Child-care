@@ -1,0 +1,455 @@
+*                            /*-----Styling the whole body-----*/
+{
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+	padding:0 5.3%;
+}
+
+.col-md-5{
+	display: block;
+	padding: 10px 5%;
+}
+
+.col-md-5 ul{
+	float: right;
+}
+
+.col-md-5 li{
+	padding: 10px;
+	display: inline;
+}
+
+.col-md-5 i{
+	padding-right: 2px;
+}
+
+.col-md-5 p{
+	padding-right:10px;
+}
+
+.col-md-5 h2{
+	display: inline-block;
+}
+
+/*-----Heading-------*/
+#top
+{
+	width: 100%;
+	height: 50px;
+}
+
+
+#top h2
+{
+	color: #FF1493;
+	font-weight: normal;
+	padding: 10px;
+	font-size: 1.7em;
+}
+
+#top p
+{
+	padding: 55px;
+	text-align: right;
+
+}
+
+
+.col-md-6
+{
+	
+	color: #000000;
+	font-weight: lighter;
+
+}
+
+ 
+/*---- Navigation bar-------*/
+nav
+{
+	display: block;
+	width: 100%;
+}
+
+nav ul{
+	display: inline-block;
+	margin-left: 2%;
+}
+
+.btn{
+	display: inline;
+	float: right;
+	margin-right: 5%;
+	vertical-align: middle;
+}
+
+button:focus{
+	outline:0;
+}
+
+.fa-shopping-cart{
+	color: rgb(199,21,133);
+}
+
+ul li 
+{
+	list-style: none;          /*---- Removes bulleting from the list -------*/
+	display: inline-block;   /*---- Removes spaces between items and items are moved towards left -------*/
+	line-height: 35px;
+}
+
+ul li a 
+{
+	display: block;			     /*---- Hovers cursor in the whole nav bar instead of item only -------*/ 
+	text-decoration: none;       /*----Removes underline from anchoe tag-------*/
+	font-size: 14;
+	color: #000000;
+	padding: 10px;
+
+	
+}
+
+.col-md-7 button, .btn button
+{
+	display: inline-block;
+	background-image: linear-gradient(to right, rgb(255, 103, 129), rgb(199,21,133));
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    width: 120px;
+    border: none;
+	cursor: pointer;
+}
+
+
+/*-----Body Part-------*/
+
+.container1{
+	padding: 0 10%;
+}
+
+.row1{
+	width: 100%;
+	display: table;
+}
+
+.col-md-7{
+	display: table-cell;
+	vertical-align: middle;
+	padding:10px;
+}
+
+.col-md-7 h1{
+	color: #003366;
+}
+
+
+/*----- Ribbon Part--------*/
+h1+p{
+	padding-top:20px;
+}
+
+.row1 h1{
+	font-size: 3em;
+}
+
+.ribbon{
+	display: block;
+	background-image: linear-gradient(to right, rgb(255, 103, 129), rgb(199,21,133));
+}
+
+.ribbon .row2{
+	display: table;
+	padding:0 10%;
+}
+
+.col-md-9{
+	padding:30px;
+	padding-right: 70%;
+	color:white;
+	display: table-cell;
+}
+
+.info{
+	display: inline-block;
+	background-image: none;
+	width: 200%;
+}
+
+
+.col-md-10{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.col-md-10 button{
+	background-color: white;
+	border-radius: 100px;
+	width: 100px;
+	height:100px;
+	border-color: rgba(10, 10, 10, 0.2);
+	border-width: 10px;
+}
+
+/*------- second section --------*/
+
+.container2{
+	padding: 0 10%;
+}
+
+.row3{
+	width: 100%;
+	display: table;
+}
+
+.col-md-11{
+	display: table-cell;
+	vertical-align: middle;
+	padding:10px;
+}
+
+.col-md-12 button, .cards button, .but button 
+{
+	display: inline-block;
+	background-image: linear-gradient(to right, rgb(255, 103, 129), rgb(199,21,133));
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    width: 120px;
+    border: none;
+	cursor: pointer;
+}
+
+h2+p{
+	padding-top:20px;
+}
+
+.row3 h2{
+	font-size: 2em;
+}
+
+.space {
+	font-size: 1.2em;
+}
+
+.space+h2{
+	padding-top: 10px;
+}
+
+h2{
+	color: 	#003366;
+}
+
+/*------ Cards-------*/
+
+.main{
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+
+.cards{
+	display: inline-block;
+	width: 23%;
+	height: 240px;
+	margin: -2px;
+	background-color: #fbfbfb;
+	
+	
+	
+}
+
+.cards:hover{
+	box-shadow: 2px 2px 10px grey;
+	background-color: white;
+}
+
+.symbol {
+	padding-top: 20px;
+	text-align: center;
+	color: rgb(255, 103, 129);
+	
+}
+
+.title{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 1.5em;
+	color: 	#003366;
+}
+
+.des{
+	text-align: center;
+	padding: 15px;
+}
+
+.cards button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+/*----- Campaign ---------*/
+
+.major{
+	background-color: pink;
+	padding-left: 10%;
+	
+
+}
+
+.major h5{
+	color: grey;
+	font-size: 1.5em;
+
+}
+
+.type{
+	color: grey;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+.value{
+	color: rgb(255, 103, 129);
+}
+
+.card{
+	background-color: white;
+	width: 90%;
+
+
+}
+
+.card1{
+	width: 50%;
+	border-style: solid;
+   border-color: coral;
+}
+
+
+
+.bar{
+ 	
+   width: 100%;
+}
+
+.stat{
+	
+   width: 30%;
+   float: left;
+   padding-left: 20px;
+   padding-top: 10px;
+
+}
+
+.check{
+	display: inline-block;
+	
+   width: 30%;
+   text-align: center;
+   padding-top: 10px;
+   
+}
+
+.but{
+	 
+   width: 40%;
+   float: right;
+   text-align: center;
+   padding-top: 8px;
+   padding-left: 40px;
+
+}
+
+.card-text{
+	width: 100%;
+}
+
+
+
+.text{
+     padding-left: 20px;
+
+     width: 68%;
+     float: left;
+     border-style: solid;
+   border-color: coral;
+}
+
+.box{
+	
+    width: 32%;
+    
+    display: flex;
+    padding-left: 25px;
+    
+    padding-top: 10px;
+    
+    float: right;
+    border-style: solid;
+   border-color: coral;
+}
+
+.box .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.box .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.box .percent svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px,5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+
+.box .percent svg circle:nth-child(1){
+	stroke-dashoffset: 0;
+	stroke: #f3f3f3;
+}
+
+.box .percent svg circle:nth-child(2){
+	stroke-dashoffset: calc(440 - (440 * 30) / 100);
+	stroke: rgb(255, 103, 129);
+}
+
+.box .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    
+}
+
+
+.box .percent .number h2{
+	font-size: 48px;
+}
+ 
+
